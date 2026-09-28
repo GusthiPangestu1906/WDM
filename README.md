@@ -33,6 +33,11 @@ WDM/
 │   ├── jawaban/                    # Script jawaban soal 1 - 7 (dan varian validasi)
 │   └── README.md                   # Dokumentasi lengkap pengerjaan Tugas 4
 │
+├── Tugas 5/                        # Praktikum Pertemuan 6: Decision Tree Classifier & Visualisasi Node
+│   ├── data/                       # Dataset Titanic
+│   ├── jawaban/                    # Script decision_tree_classifier.py & visualisasi pohon
+│   └── README.md                   # Dokumentasi lengkap pengerjaan Tugas 5
+│
 ├── .gitignore
 └── README.md
 ```
@@ -58,6 +63,9 @@ Fokus pada pengujian generalisasi model k-NN ($k=3$) menggunakan tiga skema vali
 - **Hold-out Method (70% - 30%)**
 - **K-Fold Cross Validation (k = 10)**
 - **Leave-One-Out (LOO) Cross Validation**
+
+### 5. [Tugas 5: Klasifikasi Decision Tree & Visualisasi Node](Tugas%205/README.md)
+Fokus pada klasifikasi menggunakan algoritma **Decision Tree Classifier**, penanganan *overfitting* melalui pembatasan kedalaman pohon (*pruning* dengan `max_depth=3`), analisis kepentingan fitur (*Feature Importance*), serta visualisasi diagram node pohon resolusi tinggi.
 
 ---
 
