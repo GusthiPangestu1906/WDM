@@ -38,6 +38,11 @@ WDM/
 │   ├── jawaban/                    # Script decision_tree_classifier.py & visualisasi pohon
 │   └── README.md                   # Dokumentasi lengkap pengerjaan Tugas 5
 │
+├── Tugas 6/                        # Praktikum Pertemuan 7: Evaluasi Klasifikasi (Normalisasi & Validasi Silang)
+│   ├── data/                       # Dataset UCI Heart Disease
+│   ├── jawaban/                    # Script jawaban soal 1 - 5 & data_loader
+│   └── README.md                   # Dokumentasi lengkap pengerjaan Tugas 6
+│
 ├── .gitignore
 └── README.md
 ```
@@ -66,6 +71,9 @@ Fokus pada pengujian generalisasi model k-NN ($k=3$) menggunakan tiga skema vali
 
 ### 5. [Tugas 5: Klasifikasi Decision Tree & Visualisasi Node](Tugas%205/README.md)
 Fokus pada klasifikasi menggunakan algoritma **Decision Tree Classifier**, penanganan *overfitting* melalui pembatasan kedalaman pohon (*pruning* dengan `max_depth=3`), analisis kepentingan fitur (*Feature Importance*), serta visualisasi diagram node pohon resolusi tinggi.
+
+### 6. [Tugas 6: Evaluasi Model Klasifikasi (Normalisasi & Validasi Silang)](Tugas%206/README.md)
+Fokus pada evaluasi komparatif performa algoritma **k-NN** ($k=1, 5, 9$) dan **Decision Tree Classifier** pada dataset **UCI Heart Disease**, menguji kombinasi 3 teknik normalisasi data (**Min-Max**, **Z-Score**, **Sigmoidal**) serta 3 metode validasi (**4-Fold CV**, **10-Fold CV**, **Leave-One-Out / LOO**) dengan total 36 kombinasi eksperimen tanpa *data leakage*.
 
 ---
 
