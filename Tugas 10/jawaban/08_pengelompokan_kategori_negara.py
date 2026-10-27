@@ -1,6 +1,6 @@
+from data_loader import load_dataset
 import numpy as np
 from sklearn.cluster import KMeans
-from data_loader import load_dataset
 
 dataset = load_dataset()
 invoice_qty = dataset.groupby(["Country", "InvoiceNo"])["Qty"].sum().reset_index()

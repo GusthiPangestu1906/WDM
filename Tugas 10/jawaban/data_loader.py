@@ -1,4 +1,9 @@
 import os
+import warnings
+
+os.environ["LOKY_MAX_CPU_COUNT"] = "4"
+warnings.filterwarnings("ignore")
+
 import pandas as pd
 
 def get_csv_path(filename="transaction.csv"):
